@@ -9,7 +9,6 @@ require('./config/db/connect');
 const cors = require('cors'); 
 app.use(cors()); 
 
-
 const bodyParser = require('body-parser'); 
 const classroomRoute = require('./routes/classroom');
 const userRoute = require('./routes/user');
