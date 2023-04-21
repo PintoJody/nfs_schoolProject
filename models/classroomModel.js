@@ -8,11 +8,11 @@ const classroomSchema = mongoose.Schema({
   },
   teacherId: {
       type: ObjectId,
-      required: true,
+      required: false,
   },
   studentId: {
     type: ObjectId,
-    required: true,
+    required: false,
   },
 });
 
